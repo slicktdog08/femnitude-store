@@ -1,0 +1,34 @@
+.block-services > h3 {
+    text-align: center;
+    color: #B5569C;
+}
+.block-services > p {
+    text-align: center;
+    font-size: 1.2em;
+    padding: 40px
+}
+
+.block-services > .icon-services {
+    color: #B5569C;
+    font-size: 3em;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.block-services > .icon-services > svg {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%
+}
+
+#section2 {
+    margin-bottom: 65px;
+    
+}
+
+.section-name {
+    margin-top: 40px
+}
+
+

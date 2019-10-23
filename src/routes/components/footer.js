@@ -51,13 +51,13 @@ const Footer = () => {
                             <div className="menu-subscribe-container">
                             <ul id="menu-subscribe" className="menu">
                                 <li id="menu-item-1024" className="menu-item menu-item-type-post_type menu-item-object-product menu-item-1024">
-                                <a href="https://www.subbly.co/checkout/buy/33975" data-product-id="33975">Get Total/Holistic Box</a>
+                                <a href="https://www.subbly.co/checkout/buy/33975" data-product-id="33975">Purchase a Total/Holistic Box</a>
                                 </li>
                                 <li id="menu-item-1029" className="menu-item menu-item-type-post_type menu-item-object-page menu-item-1029">
-                                <a href="https://www.subbly.co/checkout/buy/33977" data-product-id="33977">Get Luxe Box</a>
+                                <a href="https://www.subbly.co/checkout/buy/33977" data-product-id="33977">Purchase a Luxe Box</a>
                                 </li>
                                 <li id="menu-item-808" className="menu-item menu-item-type-taxonomy menu-item-object-product_cat menu-item-808">
-                                    <a data-product-id="34280" href="https://www.subbly.co/checkout/buy/34280">Get Custom Box</a>
+                                    <a data-product-id="34280" href="https://www.subbly.co/checkout/buy/34280">Purchase a Custom Box</a>
                                 </li>
                             </ul>
                             </div>

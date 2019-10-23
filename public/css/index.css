@@ -1411,6 +1411,16 @@ p.mini-box-content {
 				padding-top: 60px;
 				padding-bottom: 60px;
 		}
+
+		@media only screen and (min-width : 320px) and (max-width : 480px) {
+			body.kc-css-system .kc-css-742716 {
+				background: url(../images/new-women-bg-hero.jpg);
+				background-repeat: no-repeat;
+				background-position: 35%;
+				padding-top: 260px;
+				padding-bottom: 260px;
+			}
+		}
 		
 		body.kc-css-system .kc-css-250935.kc_title,
 		body.kc-css-system .kc-css-250935 .kc_title,

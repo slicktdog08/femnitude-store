@@ -10,7 +10,7 @@ const healthEffects = () => {
             <div className="left-center-text split-section">
               <div className="left-center-part">
                 <div className="section-name" style={{textAlign: 'center', color: '#B5569C', fontWeight: '600'}}>Alternative Solutions</div>
-                <h2 style={{textAlign: 'center'}}>Problems CBD can Help</h2>
+                <h2 style={{textAlign: 'center'}}>What are the Benefits of CBD?</h2>
                 <hr />
                 {/* +++ START - Carousel +++ */}
                 <div id="carousel-services" className="carousel slide" data-interval={6000} data-ride="carousel">

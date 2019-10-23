@@ -86,22 +86,22 @@ const Home = () => {
                 </header>
                 <div id="content" className="site-content">
                     <div className="kc_clfw" />
-                    <section data-kc-equalheight="true" data-kc-equalheight-align="middle" className="kc-elm kc-css-101174 kc_row" style={{height: '100vh', paddingTop: '100px'}}>
+                    <section data-kc-equalheight="true" data-kc-equalheight-align="middle" className="kc-elm kc-css-101174 kc_row" style={{minHeight: '100vh', height: 'auto', paddingTop: '100px', paddingBottom: '50px'}}>
                     <div className="kc-row-container  kc-container">
                         <div className="kc-wrap-columns">
                         <div className="kc-elm kc-css-685966 kc_col-sm-6 kc_column kc_col-sm-6">
                             <div className="kc-col-container">
                             <div className="kc-elm kc-css-43993 kc-title-wrap ">
                                 <h1 className="kc_title">
-                                    We hand-tailor<br/><i>CBD subscription boxes</i> to meet the needs of the rebel woman!
+                                    <i>CBD subscription boxes</i> created to meet the needs of any woman.<br/>We are a brand created by woman for the Rebel Woman!
                                 </h1>
                             </div>
                             <div className="kc-elm kc-css-753618 kc_text_block lead">
-                                <p>Our custom CBD subscription boxes address anxiety, depression and several gynecological issues women face on a daily basis.</p>
+                                <p>Our products address anxiety, depression, and several gynecological issues many women face daily.</p>
                             </div>
                             <span className="kc-elm kc-css-737529">
                                 <a href="javascript:void(0)" onClick={scrollToPlans} className="btn btn-nm btn-custom " target="_self">
-                                    EXPLORE NOW
+                                    SHOP NOW
                                 </a>
                             </span></div>
                         </div>
@@ -210,19 +210,6 @@ const Home = () => {
                                     </div> 
                                 </div>
                             </div>
-                            <div className='row' style={{paddingTop: '65px'}}>
-                                <div className='col-md-12'>
-                                    <div className="kc-elm kc-css-164871 kc_text_block lead">
-                                        <p>
-                                            Unlike THC, the chemical in marijuana responsible for the “high” CBD is
-                                            a non-psychotropic derivative of the plant. Our boxes are filled with the
-                                            highest quality CBD products on market aimed towards womens health.
-                                        </p>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
 
                             </div>
                         </div>
@@ -258,7 +245,7 @@ const Home = () => {
                                 <h2 className="kc_title">Choose Your Plan</h2>
                             </div>
                             <div className="kc-elm kc-css-196561 kc-title-wrap ">
-                                <h6 className="kc_title">You can either choose from one of our pre-made boxes or create your own custom box</h6>
+                                <h6 className="kc_title">You can either choose from a Femnitude box or design your own</h6>
                             </div>
                           
 
@@ -317,12 +304,13 @@ const Home = () => {
                                                 </div>
                                                 
                                                 <ul className="list-unstyled content-desc">
-                                                    <li><b>Pick your own combination of products</b>
-                                                    </li><br/><hr/>
-                                                    <li><b>Build your subscription from scratch</b>
-                                                    </li><br/><hr/>
-                                                    <li><b>Change whenever you like</b></li><br/><hr/>
-                                                    <li><b>Build a custom box</b></li>
+                                                    <li><b>Build your subscription box from scratch</b>
+                                                    </li><br/><br/><br/>
+                                                    <li><b>Pick your own combination of 3-4 of our products</b>
+                                                    </li><br/>
+                                                    <li><b>&nbsp;</b></li><br/>
+                                                    <li><b>&nbsp;</b></li>
+                                                    <li>&nbsp;</li>
                                                     <li>&nbsp;</li>
                                                     <li>&nbsp;</li>
                                                 </ul>
@@ -335,25 +323,6 @@ const Home = () => {
                                     </div>
                                     
                                 </div>
-                
-                            <div className="kc-elm kc-css-137844 kc_text_block">
-                                <div className='row'>
-                                    <div className='col-md-12'>
-                                        <p style={{fontWeight: 600}}>
-                                            Femnitude is a woman-owned company founded with all women in mind. Our mission is to bring awareness to women’s health while offering natural solutions that assist with health complications among women. 
-                                           We provide custom CBD subscription boxes that address anxiety, depression and several gynecological issues women face on a daily basis. This auto-renewal service is designed for the woman on the go.
-                                            We believe you should feel amazing while you tackle your everyday tasks!
-                                        </p>
-                                    </div>
-                                    <div className='col-md-12'>
-                                        <p style={{fontWeight: 600}}>
-                                            
-                                        </p>
-                                    </div>
-                                </div>
-                                
-                                
-                            </div>
                             </div>
                         </div>
                         </div>
@@ -394,6 +363,20 @@ const Home = () => {
                                         <div className="kc-panel-body">
                                             <div className="kc-elm kc-css-234147 kc_text_block">
                                             <p style={{color: 'black', fontWeight: '400'}}>Your first box will be processed after you sign up and boxes for the following months will ship on the same date.</p>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div className="kc-elm kc-css-605501 kc_accordion_section group ">
+                                        <h3 className="kc_accordion_header ui-accordion-header"><span className="ui-accordion-header-icon ui-icon" /><a href="javascript:void(0)" data-prevent="scroll"><i className />Will I feel “high” when using your CBD products?</a></h3>
+                                        <div className="kc_accordion_content ui-accordion-content kc_clearfix">
+                                        <div className="kc-panel-body">
+                                            <div className="kc-elm kc-css-234147 kc_text_block">
+                                            <p style={{color: 'black', fontWeight: '400'}}>
+                                                Unlike THC, the chemical in marijuana responsible for the “high” CBD is
+                                                a non-psychotropic derivative of the plant. Our boxes are filled with the
+                                                highest quality CBD products on market aimed towards womens health.
+                                            </p>
                                             </div>
                                         </div>
                                         </div>
@@ -444,7 +427,7 @@ const Home = () => {
                         <div className="kc-elm kc-css-366104 kc_col-sm-12 kc_column kc_col-sm-12">
                             <div className="kc-col-container">
                             <div className="kc-elm kc-css-376728 kc-title-wrap ">
-                                <h2 className="kc_title">Why Choose the Femnitude?</h2>
+                                <h2 className="kc_title">Why Choose Femnitude?</h2>
                             </div>
                             <div className="kc-elm kc-css-513840 kc_row kc_row_inner">
                                 <div className="kc-elm kc-css-844460 kc_col-sm-4 kc_column_inner kc_col-sm-4">
@@ -464,7 +447,7 @@ const Home = () => {
                                     <div className="content-icon"><FaFemale style={{fontSize: '5em'}}/></div>
                                     <div className="content-title">For Women By Women</div>
                                     <div className="content-desc">
-                                        Femnitude was created with the unique needs of women in mind and is customizable to your exact needs
+                                        Femnitude is a woman-owned company designed to meet the needs of all women
                                     </div>
                                     </div>
                                 </div>
@@ -475,7 +458,7 @@ const Home = () => {
                                     <div className="content-icon"><FaBox style={{fontSize: '5em'}}/></div>
                                     <div className="content-title">Convenient</div>
                                     <div className="content-desc">
-                                        We find the best CBD products for you and ship them to your home in discrete packaging each month
+                                        We search to find the best products, test them in-house, and ship customized boxes based on specific health needs
                                     </div>
                                     </div>
                                 </div>
@@ -486,7 +469,7 @@ const Home = () => {
                         </div>
                     </div>
                     </section>
-                   
+                   {/*
                     <section className="kc-elm kc-css-136142 kc_row">
                     <div className="kc-row-container  kc-container">
                         <div className="kc-wrap-columns">
@@ -505,6 +488,7 @@ const Home = () => {
                         </div>
                     </div>
                     </section>
+                   */}
                 </div>
                 
                 
